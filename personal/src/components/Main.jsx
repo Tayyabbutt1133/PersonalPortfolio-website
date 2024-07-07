@@ -1,0 +1,30 @@
+import React from "react";
+import personel from "../assets/cover.jpg";
+import {HERO_CONTENT} from '../constants/index.js'
+
+
+
+export default function Main() {
+  return (
+    <>
+      <div name="main" className="border-b border-neutral-900 pb-4 lg:mb-35">
+        <div name="main-inner" className="flex flex-wrap justify-around">
+          <div className="w-full lg:w-1/2">
+            <div className="flex flex-col items-center lg:items-start gap-4">
+              <h1 className="name pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl text-slate-300">
+                Tayyeb Butt
+              </h1>
+              <span className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">SOFTWARE ENGINEER</span>
+              <p className=" text-sm">{HERO_CONTENT}</p>
+            </div>
+          </div>
+          <div className=" w-full lg:w-[37%] lg:p-8">
+            <div className="">
+              <img className=" rounded-lg" src={personel} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
