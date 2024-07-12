@@ -9,32 +9,35 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "July 2024 - Present",
+    role: "Software Engineering Fellowship",
+    company: "HeadStarter AI",
+    description: `-Building 5 AI projects in 5 weeks, developing a software solution for optimizing a startup's current backlog to meet business requirements as a final project.
+-Enhancing skills according to industry demands.
+-Developing a vision required for success.
+-Focusing on personal branding, learning the art of selling aka technical sales.
+-Building a network with successful and growth-minded individuals.`,
+    technologies: ["Javascript", "React.js", "Next.js", "Node.js", "AI Automation"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "March 2024 - June 2024",
+    role: "Software Engineer Intern",
+    company: "DSME Global Links",
+    description: `-Working as an intern with a frontend engineering team to built client side interfaces of Products.
+-Designing Product web design as an intern in react ecosystem to built Condusive large scale fast application.
+-Solving Problem of Low speed interaction of users with Product by designing single page applications with component based architecture of website to make it more fast & reliable to increase speed to interaction between user and product.`,
+    technologies: ["ReactJS", "Product Design", "API Integration", "Tailwind Css"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Jan 2023 - Nov 2023",
+    role: "CMS Developer",
+    company: "Enlightiaa",
+    description: `- Enhance user experiences on Enlightiaa’s blog platform through frontend development.
+- Work extensively with WordPress and custom development using React.js.
+- Create intuitive, responsive, and visually appealing interfaces.
+- Collaborate with the content team to integrate technology seamlessly.
+- Focus on delivering dynamic and user-friendly designs that engage and inform our audience.`,
+    technologies: ["Wordpress", "PHP", "Javascript", "Plugins"],
   },
 ];
 

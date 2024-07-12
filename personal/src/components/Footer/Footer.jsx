@@ -12,13 +12,13 @@ export default function Footer() {
       <div className=" flex justify-between items-center mb-6">
         <div name="Socials" className=" flex gap-6">
           <a href="https://www.linkedin.com/in/tayyebbutt/">
-            <FaLinkedin size={20} />
+            <FaLinkedin className="" size={20} />
           </a>
           <a href="https://www.youtube.com/channel/UCLKaS8eN2OOkgxTTbF7snVw">
-            <TiSocialYoutube size={20} />
+            <TiSocialYoutube className="" size={20} />
           </a>
           <a href="https://medium.com/@tayyebbutt1">
-            <FaMediumM size={20} />
+            <FaMediumM className="" size={20} />
           </a>
           <a href="https://www.instagram.com/tayyeb_butt1/">
             <FaInstagram size={20} />
@@ -39,7 +39,7 @@ export default function Footer() {
             </span>
           </h3>
         </div>
-        <h4 className=" underline">SAY HELLO</h4>
+      <a href="https://www.linkedin.com/in/tayyebbutt/"><h4 className="underline">SAY HELLO</h4></a>  
       </div>
     </>
   );
