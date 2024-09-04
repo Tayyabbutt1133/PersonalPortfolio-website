@@ -8,7 +8,7 @@ export default function Tech() {
   return (
     <>
       <div className=" border-b border-neutral-800 pb-24">
-        <h1 className=" my-20 text-center text-4xl">Technologies</h1>
+        <h1 className=" font-lexend uppercase my-20 text-center text-4xl">Technologies</h1>
         <div className=" flex flex-wrap items-center justify-center gap-4">
           <div className="hover:bg-cyan-200 cursor-pointer rounded-2xl border-4 border-neutral-800 p-4 transition-transform duration-300 transform hover:scale-110">
             <RiReactjsLine className="text-4xl text-cyan-400" />

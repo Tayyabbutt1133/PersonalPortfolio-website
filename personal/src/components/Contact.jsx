@@ -4,12 +4,12 @@ export default function Contact() {
   return (
       <>
          <div
-      name="contact"
+      id="contact"
       className="w-full  p-4 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
-          <p className="my-20 text-center text-4xl">
+          <p className=" font-lexend uppercase my-20 text-center text-4xl">
             Contact Me
           </p>
           <p className=" text-gray-500 font-semibold text-center">SUBMIT FORM TO GET IN TOUCH WITH ME</p>

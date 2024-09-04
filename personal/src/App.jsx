@@ -8,6 +8,7 @@ import Main from './components/Main'
 
 import Navbar from './components/Navbar/Navbar'
 import Projects from './components/Projects'
+import Socials from './components/Socials'
 import Tech from './components/Tech'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Tech />
           <Experience />
           <Projects />
+          <Socials/>
           <Contact />
          <Footer/>
         </div>

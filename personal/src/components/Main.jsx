@@ -21,7 +21,7 @@ const container = () => ({
 export default function Main() {
   return (
     <>
-      <div name="main" className="border-b border-neutral-900 pb-4 lg:mb-35">
+      <div id="home" className="border-b border-neutral-900 pb-4 lg:mb-35">
         <div name="main-inner" className="flex flex-wrap justify-around">
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start gap-4">
@@ -29,7 +29,7 @@ export default function Main() {
                 initial={{ x: -100, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 1.5 }}
-                className="name pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl text-slate-300"
+                className=" font-lexend name pb-12 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl text-slate-300"
               >
                 Tayyeb Butt
               </motion.h1>

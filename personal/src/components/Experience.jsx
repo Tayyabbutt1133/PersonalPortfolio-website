@@ -5,8 +5,8 @@ import {EXPERIENCES } from '../constants/index';
 export default function Experience() {
   return (
       <>
-          <div className=' border-b border-neutral-900 pb-4'>
-              <h2 className=' my-20 text-center text-4xl'>Work Experiences</h2>
+          <div id='work-experience' className=' border-b border-neutral-900 pb-4'>
+              <h2 className=' font-lexend uppercase my-20 text-center text-4xl'>Work Experiences</h2>
               <div>
                   {
                       EXPERIENCES.map((exper, index) => (
